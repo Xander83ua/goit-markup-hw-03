@@ -25,14 +25,14 @@ a {
 .container {
     max-width: 1158px;
     padding-left: 15px;
-    padding-right: 15;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
 /* header */
 
 .page-header {
-    border: 1px solid #000;
+    border-bottom: 1px solid #e7e9fc
 }
 .header-container {
     display: flex;
@@ -98,13 +98,19 @@ color: #434455;
     color: #404BBF;
 }
 
+/* section one */
+
 .section-one {
     background-color: #2e2f42;
+    width: 1440px;
+height: 600px;
+margin-bottom: 117px;
 }
 .header-name {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
+padding: 188px 292px;
 
 /* line-height: 60px; */ 
 line-height: 107%;
@@ -119,7 +125,11 @@ color: #fff;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04em; 
+        display: block;
+        margin: 0 auto;
+        border-radius: 4px;
+padding: 16px 32px;
 }
 .button-order-service:hover {
     background-color: #404BBF;
@@ -132,9 +142,17 @@ button{
 cursor: pointer;
 }
 
+/* section two */
 
-
-
+.features {
+    display: flex;
+    width: 1128px;
+    height: 104px;
+}
+.feature-list {
+    width: 264px;
+height: 107px;
+}
 .feature-name {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -155,6 +173,8 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 } 
+
+/* section three */
 
 .section-three {
     background-color: #F4F4FD;
@@ -196,6 +216,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+
+/* section four */
+
 .header-section-four {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -228,6 +251,8 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+/* section footer */
 
 .page-footer {
     background-color: #2e2f42;;
