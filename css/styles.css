@@ -103,7 +103,7 @@ color: #434455;
 .section-one {
     background-color: #2e2f42;
     width: 1440px;
-height: 600px;
+height: 547px;
 margin-bottom: 117px;
 }
 .header-name {
@@ -146,6 +146,19 @@ cursor: pointer;
 }
 
 /* section two */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    margin: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .features {
     display: flex;
@@ -260,7 +273,9 @@ color: #434455;
 /* section footer */
 
 .page-footer {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
+    width: 1440px;
+height: 312px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -273,6 +288,8 @@ color: #434455;
 }
 .footer-logo .logo-part {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-text {
     font-family: "Roboto", sans-serif;
