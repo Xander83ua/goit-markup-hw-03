@@ -111,6 +111,9 @@ margin-bottom: 117px;
 font-weight: 700;
 font-size: 56px;
 padding: 188px 292px;
+margin-right: auto;
+margin-right: auto;
+
 
 /* line-height: 60px; */ 
 line-height: 107%;
@@ -125,11 +128,11 @@ color: #fff;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em; 
+    letter-spacing: 0.04em;
+    gap: 10px; 
         display: block;
         margin: 0 auto;
-        border-radius: 4px;
-    padding: 16px 32px;
+        border-radius: 4px;   
     min-width: 169px;
     height: 56px;
     border: none;
@@ -165,6 +168,7 @@ cursor: pointer;
     width: 1128px;
     height: 104px;
     gap: 24px;
+    padding: 120px 0
 }
 .feature-list {
     width: 264px;
@@ -196,11 +200,14 @@ color: #434455;
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
 .header-section-three {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
+margin-bottom: 72px;
 
 /* line-height: 40px; */ 
 line-height: 111%;
@@ -209,8 +216,13 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 }
+
+.mark {
+    display: block;
+}
 .team-list-item {
    background-color:  #FFFFFF;
+   
 }
 .team-member {
     font-family: "Roboto", sans-serif;
@@ -237,6 +249,9 @@ color: #434455;
 
 /* section four */
 
+.section-four {
+    padding: 120px 0 120px 0
+}
 .header-section-four {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
