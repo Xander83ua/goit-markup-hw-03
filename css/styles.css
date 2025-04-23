@@ -105,15 +105,14 @@ color: #434455;
     width: 1440px;
 height: 547px;
 margin-bottom: 117px;
+padding: 188px 0
 }
 .header-name {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
-padding: 188px 292px;
 margin-right: auto;
-margin-right: auto;
-
+margin-bottom: 76px;
 
 /* line-height: 60px; */ 
 line-height: 107%;
@@ -128,8 +127,7 @@ color: #fff;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    gap: 10px; 
+    letter-spacing: 0.04em;    
         display: block;
         margin: 0 auto;
         border-radius: 4px;   
@@ -198,6 +196,9 @@ color: #434455;
 
 /* section three */
 
+img {
+    display: block;
+}
 .section-three {
     background-color: #F4F4FD;
     padding: 120px 0;
