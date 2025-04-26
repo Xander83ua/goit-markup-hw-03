@@ -264,7 +264,9 @@ color: #434455;
 
 /* section four */
 
-.section-four 
+.section-four {
+    padding: 120px 0 120px 0;
+}
 
   
 .header-section-four {
@@ -318,6 +320,7 @@ color: #434455;
 .portfolio-inf {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* section footer */
